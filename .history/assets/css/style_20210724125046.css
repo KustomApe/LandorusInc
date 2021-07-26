@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+body {
+    width: 100%;
+    max-width: 1920px;
+}
+
+h1.main_img {
+    width: 100%;
+}
+
+h1.main_img img {
+    width: 100%;
+}

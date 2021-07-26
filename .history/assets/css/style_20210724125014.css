@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+h1.main_img {
+    width: 100%;
+    height: auto;
+}
+
+h1.main_img img {
+    width: 100%;
+    height: auto;
+}

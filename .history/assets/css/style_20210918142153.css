@@ -40,25 +40,6 @@ div#main_img h2 {
     letter-spacing: 0.5rem;
 }
 
-div#main_img p {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    border-radius: 15rem;
-    background:cornflowerblue;
-    padding: 2vh 6vh;
-}
-
-div#main_img p a {
-    font-size: 1rem;
-    font-weight: bold;
-    color: #fff;
-    text-decoration: none;
-}
-
 div.contents {
     width: 100%;
 }
@@ -67,32 +48,22 @@ div.contents ul#main_btn {
     list-style: none;
     display: flex;
     width: 100%;
+    height: 9vh;
 }
 
 div.contents ul#main_btn li {
     display: block;
-    width: 30%;
+    width: 100%;
     height: 5vh;
     line-height: 5vh;
     margin: 0 auto;
-    margin-top: -20vh;
     padding: 3vh 0;
     font-size: 2rem;
-    color: #fff;
+    color: #333;
     /* border-bottom: solid 1px #333; */
     border-radius: 15rem;
     background:cornflowerblue;
     text-align: center;
-    z-index: 10;
-}
-
-div.contents ul#main_btn li a {
-    text-decoration: none;
-    color:#fff;
-}
-
-div.contents ul#main_btn li.dev {
-    background: #999;
 }
 
 div#topic {

@@ -47,16 +47,13 @@ div#main_img p {
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    border-radius: 15rem;
-    background:cornflowerblue;
-    padding: 2vh 6vh;
-}
-
-div#main_img p a {
+    color: #333;
     font-size: 1rem;
     font-weight: bold;
     color: #fff;
-    text-decoration: none;
+    /* border-bottom: solid 1px #333; */
+    border-radius: 15rem;
+    background:cornflowerblue;
 }
 
 div.contents {

@@ -42,21 +42,15 @@ div#main_img h2 {
 
 div#main_img p {
     position: absolute;
-    top: 5%;
-    left: 5%;
+    top: 60%;
+    left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    border-radius: 15rem;
-    background:cornflowerblue;
-    padding: 2vh 6vh;
-}
-
-div#main_img p a {
-    font-size: 1rem;
+    color: #333;
+    font-size: 1.9rem;
     font-weight: bold;
-    color: #fff;
-    text-decoration: none;
+    letter-spacing: 0.5rem;
 }
 
 div.contents {
